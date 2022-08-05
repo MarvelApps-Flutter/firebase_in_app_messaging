@@ -1,2 +1,2 @@
-# flutter_firebase_realtime_database
-A new flutter app for demonstrating Firebase Realtime Database
+# flutter Firebase In App Messaging
+A new flutter app for demonstrating Firebase In App Messaging.
