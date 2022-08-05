@@ -27,7 +27,7 @@ class _MyHomeScreenPageState extends State<HomeScreenPage> {
         .child(AppConstants.taskListsString)
         .orderByChild(AppConstants.assigneeString);
     referenceDatabase = FirebaseDatabase.instance.ref().child(AppConstants.taskListsString);
-    FirebaseMessaging.instance.getInitialMessage();
+    //FirebaseMessaging.instance.getInitialMessage();
     var token = await FirebaseMessaging.instance.getToken();
   }
   @override
@@ -316,13 +316,6 @@ class _MyHomeScreenPageState extends State<HomeScreenPage> {
       title: const Text(
         AppConstants.homeTitleString,
         style: AppTextStyles.regularForLargeTextStyle,
-      ),
-      leading: IconButton(
-        padding: const EdgeInsets.only(left: 10),
-        onPressed: () {},
-        icon: const Icon(Icons.menu),
-        iconSize: 24,
-        color: Colors.black,
       ),
     );
   }
