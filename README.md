@@ -2,7 +2,7 @@
 A new flutter app for demonstrating Firebase In App Messaging.
 
 # Demo
-<img src="https://github.com/MarvelApps-Flutter/flutter_firebase_realtime_database/blob/master/screenshots/gif/demo.gif" height="480px"></td>
+<img src="https://github.com/MarvelApps-Flutter/firebase_in_app_messaging/blob/dev/screenshots/gif/demo.gif" height="480px"></td>
 
 # Android Screenshots
 
